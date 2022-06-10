@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="icon" href="img/shiba-inu-comprar.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+
+        /* AJEITAR NO MEDIA QUERIES E MELHORAR */
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(img/pexels-felix-mittermeier-1146134.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* height: 100vh; */
+            font-family: "Open Sans" , sans-serif;
+        }
+        .card-completo{
+            width: 250px;
+            max-width: 400px;
+            margin: 10vh auto;
+            text-align: center;
+            padding: 20px;
+            background-color: #0A152B;
+            box-shadow: 10px 10px 15px black , -10px -10px 15px black;
+            color: white;
+            border-radius: 10px;
+        }
+        .imagem img{
+            height: 220px;
+            width: 250px;
+            max-width: 350px;
+            border-radius: 10px;
+        }
+        .imagem img:hover{
+            background-color: white;
+        }
+        .text{
+            text-align: left;
+            margin-top: 15px;
+            position: relative;
+        }
+        .text h1{
+            font-family: "Open Sans" , sans-serif;
+            font-size: 21px;
+            font-weight: 800;
+            transition: all 1s .5s linear;
+            cursor: pointer;
+            margin: 0px 0px 25px 0px;
+        }
+        .text h1:hover{
+            color: #00f8d3;
+        }
+        .text p:nth-child(2){
+            color: red;
+            margin-top: 25px;
+            color: gray;
+            font-size: 20px;
+            letter-spacing: 1.1px;
+        }
+        .text-p{
+            float: left;
+            margin-top: 20px;
+        }
+        .text-p:nth-child(3){
+            margin-right: 85px;
+            color: #00f8d3;
+        }
+        .text-p:nth-child(5){
+            position: absolute;
+            right: 0px;
+        }
+        .criador{
+            margin-top: 80px;
+            border-top: solid 2px gray;
+        }
+        .criador img{
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        .craidor p{
+            float: right;
+            width: 300px;
+        }
+        svg{
+            float: left;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+<body>
+        <div id="container">
+            <div class="card-completo">
+                <div class="imagem">
+                    <img src="img/image-nft.jpg" alt="foto do nft">
+                </div>
+                <div class="text">
+                    <h1>Equilibrium #3429</h1>
+                    <p>Our Equilibrium collection promotes balance and calm.</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 48 48"><path fill="#7880e7"  d="M11,24L25,2l14,22l-14,8L11,24z"></path><path fill="#5c64c7" d="M25,2l14,22l-14,8V2z"></path><path fill="#7880e7" d="M11,27l14,8l14-8L25,46L11,27z"></path><path fill="#5c64c7" d="M25,35l14-8L25,46V35z M11,24l14-6l14,6l-14,8L11,24z"></path><path fill="#2a3192" d="M25,18l14,6l-14,8V18z"></path></svg>
+                    <p class="text-p">Ethereum 0.041 ETH</p>
+                    <p class="text-p">3 days left<p>
+                </p>
+                <div class="criador">
+                    <img src="img/shiba-inu-comprar.png" alt="foto do criador">
+                    <p>Criado por Thiago Campos</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
