@@ -95,7 +95,7 @@ svg{
 
 @media screen and (min-width: 780px){
     .card-completo{
-        width: 280px;
+        width: 260px;
         max-width: 400px;
         margin: 10vh auto;
         text-align: center;
@@ -107,7 +107,7 @@ svg{
     }
     .imagem img{
         height: 220px;
-        width: 280px;
+        width: 260px;
         max-width: 350px;
         border-radius: 10px;
     }
